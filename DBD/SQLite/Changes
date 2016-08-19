@@ -1,0 +1,10 @@
+Revision history for Perl extension DBD::SQLite.
+
+0.01  Thu Jun 28 22:32:04 2001
+	- original version; created by h2xs 1.19
+
+0.02  Tue Aug 07 09:00:00 2001
+        - Changed the regular expression within execute() so that it can
+          now properly disregard anything that looks like a positional
+          bind variable but is contained within quotes.
+

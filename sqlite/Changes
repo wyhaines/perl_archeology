@@ -1,0 +1,20 @@
+Revision history for Perl extension sqlite.
+
+0.01  Fri Jun 29 00:09:49 2001
+	- original version; created by h2xs 1.19
+
+0.02  Tue Jul 03 10:09:00 2001
+        - Changes call_sv and SvPV_nolen calls to perl_call_sv and
+          SvPV(var,PL_na) calls to maintain compatibility with Perl
+          5.005.
+
+***** Switched to CVS style handling of versioning.
+
+Revision 1.4  2001/08/15 03:32:55  khaines
+Added a list of changes, in POD form, at the end of the file.
+
+Revision 1.3
+Made $sqlite::VERSION set by $Revision: 1.1.1.1 $.
+
+Revision 1.2
+Made the version reported in the documentation come from $Revision: 1.1.1.1 $.

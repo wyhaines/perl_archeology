@@ -1,0 +1,47 @@
+######################################################################
+##### Constructor: new
+######################################################################
+
+=pod
+
+=head2 CONSTRUCTOR_NAME: new
+
+I<AUTHOR: >
+
+I<DATE_CREATED: >
+
+=over 4
+
+=item PURPOSE:
+
+=item ARGUMENTS:
+
+=item THROWS:
+
+=item RETURNS:
+
+=item EXAMPLE:
+
+=item TODO:
+
+=back
+
+Z<>
+
+Z<>
+
+Z<>
+
+=cut
+
+######################################################################
+######################################################################
+
+sub new {
+  my ($proto) = shift;
+  my ($class) = ref($proto) || $proto;
+  my $self  = {};
+  bless ($self, $class);
+  $self->_init(@_);
+  return $self;
+}

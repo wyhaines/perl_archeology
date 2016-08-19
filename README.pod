@@ -1,0 +1,55 @@
+=pod
+
+=head1 /
+
+=head2 Version: $Revision: 1.1.1.1 $
+
+This is the top level of the general purpose Perl source tree.  In general,
+this directory should just contain subdirectories with more specificaly
+targetted contend.  The currend subdirectories are:
+
+=over 4
+
+=item DBD/
+
+F<DBD/> contains modules for DBD drivers.  These are all packaged as
+standard CPAN distributable Perl modules.  See F<README_module_guidelines.pod>
+for more information.
+
+=item sqlite/
+
+F<sqlite/> contains a module that provides an XS interface to the
+SQLite API.  For more information SQLite, refer to
+I<http://www.hwaci.com/sw/sqlite/>.
+
+=item misc/
+
+F<misc/> is a repository for content that, while related to Perl and Perl
+packages, isn't a package in itself.  Examples are templates for
+documentation, package headers, constuctor headers, and similar items.
+
+=item Enigo/
+
+F<Enigo/> contains all Enigo authored Perl that is is not specific to
+a single project and which is straight Perl and does not require any
+special actions to install it or prepare it for use.  See the
+F<Enigo/README_Enigo.pod> file for further information.
+
+=item CATALOG
+
+The I<CATALOG> is an attempt to list in one place a list of our reusable
+code.  It should list what the package is, and what it provides, in
+a succinct way.  It is expected that further documentation can be found
+as POD within the package in question.
+
+=back
+
+B<Please>, if anything is added or changed anyplace in this hierarchy,
+make sure that part of the change is to update the README files to
+reflect that change.  Documentation is worse than useless if it is not
+maintained and is thus incorrect.  Every subdirectory underneath this one
+should contain at least one README file explaining the purpose of that
+directory and its contents.
+
+=cut
+

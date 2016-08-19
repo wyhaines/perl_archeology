@@ -1,0 +1,10 @@
+=pod
+
+=head1 DBD:: README
+
+=head2 Version: $Revision: 1.1.1.1 $
+
+Everything under here is a Perl DBD driver of some sort.
+
+=cut
+

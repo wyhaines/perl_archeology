@@ -1,0 +1,64 @@
+#!/usr/bin/perl -wc
+#
+######################################################################
+##### Header
+######################################################################
+
+=pod
+
+=head1 NAME: $RCSfile: package_header,v $
+
+Z<>
+
+I<REVISION: $Revision: 1.1.1.1 $>
+
+I<AUTHOR: >
+
+I<DATE_MODIFIED: $Date: 2001/12/17 02:28:37 $>
+
+=head1 PURPOSE:
+
+Encapsulates some functionality.
+
+=head1 EXAMPLES:
+
+  No examples currently.
+
+Z<>
+
+=head1 TODO:
+
+  -Build it.
+  -Test it.
+
+Z<>
+
+Z<>
+
+Z<>
+
+=head1 DESCRIPTION:
+
+=cut
+
+######################################################################
+######################################################################
+
+package;
+
+use strict;
+use vars qw($VERSION @ISA @EXPORT_OK);
+
+use Exporter;
+
+@ISA = qw(Exporter);
+
+@EXPORT_OK = qw();
+
+($VERSION) =
+  '$Revision: 1.1.1.1 $' =~ /\$Revision:\s+([^\s]+)/;#';
+
+
+
+
+1;
